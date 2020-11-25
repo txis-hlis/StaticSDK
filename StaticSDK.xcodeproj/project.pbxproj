@@ -3,11 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DA32FB025567D1700D054B9 /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE9B42625559F4600CD0548 /* Firebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DB82B4B255A5F4A00FC37F4 /* Firebase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DE9B42625559F4600CD0548 /* Firebase.h */; };
+		5DB82B4C255A5F4A00FC37F4 /* module.modulemap in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5DE9B42D25559F4600CD0548 /* module.modulemap */; };
 		5DE9B41725559EF000CD0548 /* StaticSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE9B41625559EF000CD0548 /* StaticSDK.swift */; };
+		5DE9B43025559F4700CD0548 /* FirebaseAuth.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B41F25559F4500CD0548 /* FirebaseAuth.xcframework */; };
+		5DE9B43125559F4700CD0548 /* GoogleAppMeasurement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42025559F4500CD0548 /* GoogleAppMeasurement.framework */; };
+		5DE9B43225559F4700CD0548 /* GoogleUtilities.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42125559F4500CD0548 /* GoogleUtilities.xcframework */; };
+		5DE9B43325559F4700CD0548 /* FirebaseCoreDiagnostics.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42225559F4500CD0548 /* FirebaseCoreDiagnostics.xcframework */; };
+		5DE9B43425559F4700CD0548 /* FirebaseCore.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42325559F4600CD0548 /* FirebaseCore.xcframework */; };
+		5DE9B43525559F4700CD0548 /* FirebaseMessaging.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42425559F4600CD0548 /* FirebaseMessaging.xcframework */; };
+		5DE9B43625559F4700CD0548 /* FIRAnalyticsConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42525559F4600CD0548 /* FIRAnalyticsConnector.framework */; };
+		5DE9B43725559F4700CD0548 /* FirebaseInstanceID.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42725559F4600CD0548 /* FirebaseInstanceID.xcframework */; };
+		5DE9B43825559F4700CD0548 /* TXIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE9B42825559F4600CD0548 /* TXIS.swift */; };
+		5DE9B43925559F4700CD0548 /* GTMSessionFetcher.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42925559F4600CD0548 /* GTMSessionFetcher.xcframework */; };
+		5DE9B43A25559F4700CD0548 /* GoogleDataTransport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42A25559F4600CD0548 /* GoogleDataTransport.xcframework */; };
+		5DE9B43B25559F4700CD0548 /* nanopb.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42B25559F4600CD0548 /* nanopb.xcframework */; };
+		5DE9B43C25559F4700CD0548 /* PromisesObjC.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42C25559F4600CD0548 /* PromisesObjC.xcframework */; };
+		5DE9B43D25559F4700CD0548 /* FirebaseInstallations.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42E25559F4700CD0548 /* FirebaseInstallations.xcframework */; };
+		5DE9B43E25559F4700CD0548 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE9B42F25559F4700CD0548 /* FirebaseAnalytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -17,6 +35,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				5DB82B4B255A5F4A00FC37F4 /* Firebase.h in CopyFiles */,
+				5DB82B4C255A5F4A00FC37F4 /* module.modulemap in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -25,6 +45,23 @@
 /* Begin PBXFileReference section */
 		5DE9B41325559EF000CD0548 /* libStaticSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libStaticSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DE9B41625559EF000CD0548 /* StaticSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticSDK.swift; sourceTree = "<group>"; };
+		5DE9B41F25559F4500CD0548 /* FirebaseAuth.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseAuth.xcframework; sourceTree = "<group>"; };
+		5DE9B42025559F4500CD0548 /* GoogleAppMeasurement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppMeasurement.framework; sourceTree = "<group>"; };
+		5DE9B42125559F4500CD0548 /* GoogleUtilities.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleUtilities.xcframework; sourceTree = "<group>"; };
+		5DE9B42225559F4500CD0548 /* FirebaseCoreDiagnostics.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCoreDiagnostics.xcframework; sourceTree = "<group>"; };
+		5DE9B42325559F4600CD0548 /* FirebaseCore.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseCore.xcframework; sourceTree = "<group>"; };
+		5DE9B42425559F4600CD0548 /* FirebaseMessaging.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseMessaging.xcframework; sourceTree = "<group>"; };
+		5DE9B42525559F4600CD0548 /* FIRAnalyticsConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FIRAnalyticsConnector.framework; sourceTree = "<group>"; };
+		5DE9B42625559F4600CD0548 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		5DE9B42725559F4600CD0548 /* FirebaseInstanceID.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseInstanceID.xcframework; sourceTree = "<group>"; };
+		5DE9B42825559F4600CD0548 /* TXIS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TXIS.swift; sourceTree = "<group>"; };
+		5DE9B42925559F4600CD0548 /* GTMSessionFetcher.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GTMSessionFetcher.xcframework; sourceTree = "<group>"; };
+		5DE9B42A25559F4600CD0548 /* GoogleDataTransport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = GoogleDataTransport.xcframework; sourceTree = "<group>"; };
+		5DE9B42B25559F4600CD0548 /* nanopb.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = nanopb.xcframework; sourceTree = "<group>"; };
+		5DE9B42C25559F4600CD0548 /* PromisesObjC.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = PromisesObjC.xcframework; sourceTree = "<group>"; };
+		5DE9B42D25559F4600CD0548 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		5DE9B42E25559F4700CD0548 /* FirebaseInstallations.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FirebaseInstallations.xcframework; sourceTree = "<group>"; };
+		5DE9B42F25559F4700CD0548 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +69,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DE9B43A25559F4700CD0548 /* GoogleDataTransport.xcframework in Frameworks */,
+				5DE9B43725559F4700CD0548 /* FirebaseInstanceID.xcframework in Frameworks */,
+				5DE9B43325559F4700CD0548 /* FirebaseCoreDiagnostics.xcframework in Frameworks */,
+				5DE9B43C25559F4700CD0548 /* PromisesObjC.xcframework in Frameworks */,
+				5DE9B43E25559F4700CD0548 /* FirebaseAnalytics.framework in Frameworks */,
+				5DE9B43D25559F4700CD0548 /* FirebaseInstallations.xcframework in Frameworks */,
+				5DE9B43925559F4700CD0548 /* GTMSessionFetcher.xcframework in Frameworks */,
+				5DE9B43B25559F4700CD0548 /* nanopb.xcframework in Frameworks */,
+				5DE9B43525559F4700CD0548 /* FirebaseMessaging.xcframework in Frameworks */,
+				5DE9B43125559F4700CD0548 /* GoogleAppMeasurement.framework in Frameworks */,
+				5DE9B43425559F4700CD0548 /* FirebaseCore.xcframework in Frameworks */,
+				5DE9B43625559F4700CD0548 /* FIRAnalyticsConnector.framework in Frameworks */,
+				5DE9B43025559F4700CD0548 /* FirebaseAuth.xcframework in Frameworks */,
+				5DE9B43225559F4700CD0548 /* GoogleUtilities.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,17 +109,46 @@
 			isa = PBXGroup;
 			children = (
 				5DE9B41625559EF000CD0548 /* StaticSDK.swift */,
+				5DE9B42525559F4600CD0548 /* FIRAnalyticsConnector.framework */,
+				5DE9B42625559F4600CD0548 /* Firebase.h */,
+				5DE9B42F25559F4700CD0548 /* FirebaseAnalytics.framework */,
+				5DE9B41F25559F4500CD0548 /* FirebaseAuth.xcframework */,
+				5DE9B42325559F4600CD0548 /* FirebaseCore.xcframework */,
+				5DE9B42225559F4500CD0548 /* FirebaseCoreDiagnostics.xcframework */,
+				5DE9B42E25559F4700CD0548 /* FirebaseInstallations.xcframework */,
+				5DE9B42725559F4600CD0548 /* FirebaseInstanceID.xcframework */,
+				5DE9B42425559F4600CD0548 /* FirebaseMessaging.xcframework */,
+				5DE9B42025559F4500CD0548 /* GoogleAppMeasurement.framework */,
+				5DE9B42A25559F4600CD0548 /* GoogleDataTransport.xcframework */,
+				5DE9B42125559F4500CD0548 /* GoogleUtilities.xcframework */,
+				5DE9B42925559F4600CD0548 /* GTMSessionFetcher.xcframework */,
+				5DE9B42D25559F4600CD0548 /* module.modulemap */,
+				5DE9B42B25559F4600CD0548 /* nanopb.xcframework */,
+				5DE9B42C25559F4600CD0548 /* PromisesObjC.xcframework */,
+				5DE9B42825559F4600CD0548 /* TXIS.swift */,
 			);
 			path = StaticSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		5DA32FAC25567CF200D054B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA32FB025567D1700D054B9 /* Firebase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		5DE9B41225559EF000CD0548 /* StaticSDK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DE9B41A25559EF000CD0548 /* Build configuration list for PBXNativeTarget "StaticSDK" */;
 			buildPhases = (
+				5DA32FAC25567CF200D054B9 /* Headers */,
 				5DE9B40F25559EF000CD0548 /* Sources */,
 				5DE9B41025559EF000CD0548 /* Frameworks */,
 				5DE9B41125559EF000CD0548 /* CopyFiles */,
@@ -120,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DE9B41725559EF000CD0548 /* StaticSDK.swift in Sources */,
+				5DE9B43825559F4700CD0548 /* TXIS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,7 +258,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -232,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -245,10 +326,15 @@
 		5DE9B41B25559EF000CD0548 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StaticSDK",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -257,10 +343,15 @@
 		5DE9B41C25559EF000CD0548 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StaticSDK",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+				SKIP_INSTALL = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
